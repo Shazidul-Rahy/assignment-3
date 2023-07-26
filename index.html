@@ -32,9 +32,10 @@
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                     </label>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box">
-                      <li><a>Homepage</a></li>
-                      <li><a>Portfolio</a></li>
-                      <li><a>About</a></li>
+                      <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
                     </ul>
                   </div>
                   <div class="invisible lg:visible">
@@ -64,7 +65,7 @@
               </div>
         </nav>
         <!-- Banner Slider -->
-        <div class="carousel mx-auto lg:mx-16 my-14 relative">
+        <div class="carousel mx-5 lg:mx-16 my-14 relative">
             <div id="slide1" class="carousel-item relative w-full">
               <img src="images/banner1.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -124,7 +125,7 @@
 
             <!-- Time Section -->
             
-            <div class="justify-center lg:justify-start">
+            <div class="justify-center lg:justify-start my-10 lg:my-0">
                 <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                     <div class="flex flex-col">
                       <span class="countdown font-mono text-5xl">
@@ -335,9 +336,9 @@
 
         <!-- Why Choose Us -->
 
-        <Section>
+        <Section class="mx-5 lg:mx-0">
           <div class="text-center my-36">
-            <h1 class="font-extrabold text-5xl">
+            <h1 class="font-extrabold text-3xl lg:text-5xl">
               Why Choose Us
             </h1>
             <p class="font-medium text-base my-5">
@@ -348,7 +349,7 @@
 
         <!-- Specialty Section -->
 
-        <section class="mx-auto lg:mx-16 mt-12 my-12 flex-col lg:grid grid-cols-3 justify-around">
+        <section class="mx-5 lg:mx-16 my-2 lg:my-12 flex-col lg:grid grid-cols-3 justify-around">
          <!-- First Three -->
           <div>
             <div class="flex items-center gap-5">
@@ -382,7 +383,7 @@
           </div>
 
           <!-- Last Three -->
-          <div class="items-end">
+          <div class="items-end my-5 lg:my-0">
             <div class="flex items-center gap-5">
               <p><i class="fa-solid fa-apple-whole"></i></p>
               <div>
@@ -406,14 +407,39 @@
               <p class="mt-5 text-base font-medium">Professional employees are there for you to <br> pick the most amazing and fresh fruits.</p>
               </div>
             </div>
-
-          
-
         </section>
-
     </main>
 
-    <footer>
+    <footer class="w-full h-[526px] bg-black">
+
+      <div class="flex items-center justify-center pt-10 lg:pt-36 pr-10 lg:pr-0">
+        <img src="images/logo.png" alt="">
+        <h1 class="p-2 text-lg lg:text-4xl font-bold text-white">Fruit Burst</h1>
+    </div>
+    <div>
+      <ul class="grid grid-cols-2 lg:flex gap-8 lg:gap-14 list-none text-white items-center ml-[50px] lg:ml-[300px] my-10 lg:my-16">
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Shop</li>
+        <li>All Fruits</li>
+        <li>Supports</li>
+        <li>My Account</li>
+      </ul>
+    </div>
+
+    <div>
+      <ul class="grid grid-cols-2 lg:flex gap-8 lg:gap-10 list-none text-white ml-[50px] lg:ml-[480px] my-10 lg:my-16 pl-10 lg:pl-0">
+      <li><i class="fa-brands fa-twitter"></i></li>
+      <li><i class="fa-brands fa-facebook"></i></li>
+      <li><i class="fa-brands fa-youtube"></i></li>
+      <li><i class="fa-brands fa-linkedin"></i></li>
+      <li><i class="fa-brands fa-instagram"></i></li>
+      <li><i class="fa-brands fa-apple"></i></li>
+
+      </ul>
+      
+
+    </div>
 
     </footer>
     
