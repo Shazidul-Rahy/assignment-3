@@ -18,7 +18,7 @@
 </style>
 </head>
 
-<body>
+<body class=".font">
     <header>
         <!-- Nav Bar -->
         <nav class="mx-auto lg:mx-16 mt-20">
@@ -153,7 +153,7 @@
 
         <!-- Card Section -->
 
-        <section class="grid grid-cols-4 gap-1 mx-16 my:8 lg:my-14">
+        <section class="grid grid-flow-row lg:grid-cols-4 gap-1 mx-16 my:8 lg:my-14">
           <!-- Card no.1 -->
           <div class="card w-[270px] bg-base-100 rounded-lg border-[.5px] drop-shadow-sm">
             <figure class="px-10 pt-10">
@@ -161,21 +161,20 @@
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title border-b-2">12.90$ - 18.85$</h2>
-              <p class="my-3">Apples</p>
-              <p>
-                <div class="rating">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                </div>
-              </p>
+              <p class="my-3">Appals</p>
+              <p><div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+              </div></p>
               <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-primary font-thin bg-white border-none text-[#F85559]">Details</button>
               </div>
             </div>
           </div>
+
           <!-- Card no.2 -->
           <div class="card w-[270px] bg-base-100 rounded-lg border-[.5px] drop-shadow-sm">
             <figure class="px-10 pt-10">
@@ -185,14 +184,14 @@
               <h2 class="card-title border-b-2">12.90$ - 18.85$</h2>
               <p class="my-3">Orange</p>
               <p><div class="rating">
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
               </div></p>
               <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-primary font-thin bg-white border-none text-[#F85559]">Details</button>
               </div>
             </div>
           </div>
@@ -206,15 +205,15 @@
               <p class="my-3">Red Dragon</p>
               <p>
                 <div class="rating">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
                 </div>
               </p>
               <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-primary font-thin bg-white border-none text-[#F85559]">Details</button>
               </div>
             </div>
           </div>
@@ -225,24 +224,29 @@
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title border-b-2">12.90$ - 18.85$</h2>
-              <p class="my-3">Apples</p>
+              <p class="my-3">Banana</p>
               <p>
                 <div class="rating">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FBC0A8]" />
                 </div>
               </p>
               <div class="card-actions">
-                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-primary font-thin bg-white border-none text-[#F85559]">Details</button>
               </div>
             </div>
           </div>
 
-
+          
         </section>
+
+        <!-- Single Button Section -->
+        <div class="text-center">
+          <button class="btn btn-error bg-[#F85559] text-white w-[335px] h-[64px] px-8 py-5">Shop Now</button>
+        </div>
 
     </main>
 
